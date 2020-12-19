@@ -1,0 +1,1 @@
+{"__type__":"cc.Material","_name":"a0","_effectAsset":{"__uuid__":"6dkeWRTOBGXICfYQ7JUBnG"},"_techniqueData":{"0":{"props":{"diffuseColor":{"__type__":"cc.Color","r":255,"g":255,"b":255},"diffuseTexture":{"__uuid__":"f9LmYX8npGJK6aP2wj4bef"}},"defines":{"USE_DIFFUSE_TEXTURE":true}}}}

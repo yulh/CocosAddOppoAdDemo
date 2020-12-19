@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"videostartButton","_duration":2,"sample":5,"wrapMode":2,"curveData":{"props":{"scale":[{"frame":0,"value":{"__type__":"cc.Vec2","x":1,"y":1}},{"frame":1,"value":{"__type__":"cc.Vec2","x":1.1,"y":1.1}},{"frame":2,"value":{"__type__":"cc.Vec2","x":1,"y":1}}]}}}

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_8000000"
+    android:orientation="vertical">
+
+    <com.heytap.msp.mobad.api.params.NativeAdvanceContainer
+        android:id="@+id/native_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_native_inters_ad_main"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/nativeintersbg"
+                android:padding="@dimen/dp_10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/dp_40"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_native_inters_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_60"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginRight="@dimen/dp_60"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="拼多多"
+                        android:textColor="@color/color_ff0000"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:id="@+id/tv_native_inters_dsc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dp_10"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="星巴克杯子1块钱1个！"
+                        android:textColor="@color/color_000000"
+                        android:textSize="@dimen/sp_12" />
+
+                    <ImageView
+                        android:id="@+id/iv_native_inters_pic"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp_30"
+                        android:layout_marginRight="@dimen/dp_30"
+                        android:layout_marginBottom="@dimen/dp_10"
+                        android:scaleType="fitXY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_native_inters_close_jia"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:src="@drawable/nativeclose" />
+
+                <ImageView
+                    android:id="@+id/iv_native_inters_close"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:src="@drawable/nativeclose" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_native_inters_click"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_40"
+                android:visibility="gone"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:background="@drawable/touchbutton" />
+
+        </LinearLayout>
+    </com.heytap.msp.mobad.api.params.NativeAdvanceContainer>
+</LinearLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:background="@color/color_8000000"-->
+    <!--    android:gravity="center"-->
+    <!--    android:orientation="vertical">-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="@dimen/dp_30"-->
+    <!--        android:gravity="center"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <FrameLayout-->
+    <!--            android:id="@+id/fl_native_inters_ad_main"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="300dp"-->
+    <!--            android:background="@drawable/nativeintersbg"-->
+    <!--            android:padding="@dimen/dp_10">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:layout_marginBottom="@dimen/dp_40"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/tv_native_inters_title"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="@dimen/dp_60"-->
+    <!--                    android:layout_marginTop="@dimen/dp_10"-->
+    <!--                    android:layout_marginRight="@dimen/dp_60"-->
+    <!--                    android:singleLine="true"-->
+    <!--                    android:gravity="center"-->
+    <!--                    android:text="拼多多"-->
+    <!--                    android:textColor="@color/color_ff0000"-->
+    <!--                    android:textSize="@dimen/sp_14" />-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/tv_native_inters_dsc"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_margin="@dimen/dp_10"-->
+    <!--                    android:gravity="center"-->
+    <!--                    android:singleLine="true"-->
+    <!--                    android:text="星巴克杯子1块钱1个！"-->
+    <!--                    android:textColor="@color/color_000000"-->
+    <!--                    android:textSize="@dimen/sp_12" />-->
+
+    <!--                <ImageView-->
+    <!--                    android:id="@+id/iv_native_inters_pic"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:layout_marginLeft="@dimen/dp_30"-->
+    <!--                    android:layout_marginRight="@dimen/dp_30"-->
+    <!--                    android:scaleType="matrix" />-->
+    <!--            </LinearLayout>-->
+
+    <!--            <ImageView-->
+    <!--                android:id="@+id/iv_native_inters_close"-->
+    <!--                android:layout_width="@dimen/dp_30"-->
+    <!--                android:layout_height="@dimen/dp_30"-->
+    <!--                android:layout_gravity="right"-->
+    <!--                android:layout_marginTop="@dimen/dp_10"-->
+    <!--                android:layout_marginRight="@dimen/dp_10"-->
+    <!--                android:src="@drawable/nativeclose" />-->
+    <!--        </FrameLayout>-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/btn_native_inters_click"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="80dp"-->
+    <!--            android:layout_marginLeft="@dimen/dp_40"-->
+    <!--            android:layout_marginTop="@dimen/dp_10"-->
+    <!--            android:layout_marginRight="@dimen/dp_40"-->
+    <!--            android:layout_marginBottom="@dimen/dp_10"-->
+    <!--            android:background="@drawable/touchbutton" />-->
+
+    <!--    </LinearLayout>-->
+    <!--</LinearLayout>-->

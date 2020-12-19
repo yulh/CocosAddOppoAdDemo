@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asc.sdk">
+
+    /
+    <!--    震动所需权限-->
+    <uses-permission android:name="android.permission.VIBRATE" />
+</manifest>

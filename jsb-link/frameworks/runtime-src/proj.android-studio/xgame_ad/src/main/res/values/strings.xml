@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">CocosAddQuickSdkDemo</string>
+    <string name="refuseTip" translatable="false">应用需要权限，请同意！！！</string>
+    <string name="privacy_exit">不同意</string>
+    <string name="privacy_agree">同意并继续</string>
+    <string name="users_note">用户服务条款</string>
+    <string name="privacy_tips_key1">《服务协议》</string>
+    <string name="privacy_tips_key2">《隐私政策》</string>
+    <string name="privacy_tips">\t\t欢迎您进入游戏！我们非常重视您的个人信息和隐私保护，为了更好的保障您的个人权益，在您使用我们的产品前，请您仔细阅读《服务协议》和《隐私政策》中的所有条款。我们希望通过这些条款，向您说明在使用我们的产品时，我们如何收集、使用、保存和管理这些信息。\n
+\t\t您点击“同意并继续”的行为即表示您已阅读完毕并同意上述协议和政策中的全部内容。如果您有任何问题、意见或投诉，请通过电子邮件wurenxian@xplaymobile.com与我们联系。</string>
+
+</resources>

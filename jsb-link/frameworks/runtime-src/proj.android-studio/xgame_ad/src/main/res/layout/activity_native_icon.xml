@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.heytap.msp.mobad.api.params.NativeAdvanceContainer
+        android:id="@+id/native_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/color_08000000">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/native_ad_icon_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/close_iv"
+                    android:layout_width="@dimen/dp_20"
+                    android:layout_height="@dimen/dp_20"
+                    android:layout_marginLeft="@dimen/dp_3"
+                    android:layout_marginTop="@dimen/dp_3"
+                    android:background="@drawable/opos_native_close_bn_bg_img" />
+
+                <ImageView
+                    android:id="@+id/logo_iv"
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_20"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/dp_3"
+                    android:layout_marginRight="@dimen/dp_3" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/color_ffffff"
+                android:textSize="@dimen/sp_12" />
+        </LinearLayout>
+    </com.heytap.msp.mobad.api.params.NativeAdvanceContainer>
+</RelativeLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/native_ad_container"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:background="@color/color_08000000"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/native_ad_icon_view"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img_iv"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/close_iv"-->
+<!--                android:layout_width="@dimen/dp_20"-->
+<!--                android:layout_height="@dimen/dp_20"-->
+<!--                android:layout_marginLeft="@dimen/dp_3"-->
+<!--                android:layout_marginTop="@dimen/dp_3"-->
+<!--                android:background="@drawable/opos_native_close_bn_bg_img" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/logo_iv"-->
+<!--                android:layout_width="@dimen/dp_40"-->
+<!--                android:layout_height="@dimen/dp_20"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_marginTop="@dimen/dp_3"-->
+<!--                android:layout_marginRight="@dimen/dp_3" />-->
+
+<!--        </RelativeLayout>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/title_tv"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:singleLine="true"-->
+<!--            android:textColor="@color/color_ffffff"-->
+<!--            android:textSize="@dimen/sp_12" />-->
+<!--    </LinearLayout>-->
+<!--</RelativeLayout>-->

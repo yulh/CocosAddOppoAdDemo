@@ -1,0 +1,5 @@
+include ':xgame_ad'
+include ':libcocos2dx',':game', ':instantapp'
+project(':libcocos2dx').projectDir = new File('C:/CocosDashboard_1.0.8/Creator/2.3.4/resources/cocos2d-x/cocos/platform/android/libcocos2dx')
+include ':Demo'
+project(':Demo').projectDir = new File(settingsDir, 'app')
